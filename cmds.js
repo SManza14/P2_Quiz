@@ -156,8 +156,9 @@ exports.playCmd = rl => {
           playOne();
 
         } else {
-          log('Error! Número de acietos: ');
-          biglog(score, 'green');
+          log('Incorrecto');
+          log(score);
+          log('fin');
           rl.prompt();
 
         }
